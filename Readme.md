@@ -1,6 +1,6 @@
-<h3 align="center">C/C++ Developer from Turkey who is into ML and Game programming</h3>
+<h4 align="center">Hi I am Sarp ✌️, C/C++ Developer from Turkey who is into ML and Game programming</h4>
 
-<h3 align="left">Connect with me:</h3>
+<h5 align="left">Connect with me:</h3>
 <p align="left">
 </p>
 
