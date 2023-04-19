@@ -2,7 +2,7 @@
 
 <h3 align="left">About Me:</h3>
 <h4 aling="left">• I am a student at Ecole 42 right now.</h4>
-<h4 aling="left">• I started coding when i was 14.</h4>
+<h4 aling="left">• I started coding when I was 14.</h4>
 <p align="left">
 </p>
 
