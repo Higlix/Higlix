@@ -1,10 +1,8 @@
-<h4 align="center">---- Hi I am Sarp ✌️, C/C++ Developer from Turkey who is into ML and Game programming ----</h4>
-
-<h1 align="center"> _へ__(‾◡◝ )></h3>
+<h4 align="center">C/C++ Developer from Turkey who is into ML and Game programming</h4>
 
 <h3 align="left">About Me:</h3>
 <h4 aling="left">• I am a student at Ecole 42 right now.</h4>
-<h4 aling="left">• I started coding when I was 14.</h4>
+<h4 aling="left">• I started coding when I was 13.</h4>
 <p align="left">
 </p>
  
