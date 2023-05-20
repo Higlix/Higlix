@@ -1,4 +1,4 @@
-<h4 align="center">C/C++ Developer from Turkey who is into ML and Game programming</h4>
+<h2 align="center">C/C++ Developer from Turkey who is into ML and Game programming</h2>
 <p align="left">
 </p>
  
