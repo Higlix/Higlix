@@ -16,9 +16,6 @@
 <h2 align="center">A Developer from Turkey interesed in AI/ML, Math and Game programming</h2>
 
 
-<img align="right" alt="GIF" src="https://media.giphy.com/media/USV0ym3bVWQJJmNu3N/giphy.gif" />
-
-
 **Contact:**
 Contact me through my email -> khiglix@gmail.com
 
