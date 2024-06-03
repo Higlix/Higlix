@@ -36,4 +36,4 @@ Contact me through my email -> khiglix@gmail.com
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"></code>
 
-![Sakigo's github stats](https://github-readme-stats.vercel.app/api?username=sakigo9&show_icons=true&hide_border=true)
+[![Stats](https://gh-md-stats.vercel.app/api?username=night0721&bg_color=1e1e2e&text_color=cdd6f4&icon_color=cba6f7&title_color=89b4fa&border_color=cba6f7&count_private=true&show_icons=true&include_all_commits=true&number_format=long&show=prs_merged_percentage,prs_merged,reviews&disable_animations=true&custom_title=Github%20Stats&rank_icon=github&)]()
