@@ -14,7 +14,7 @@
 <br />
 
 <h2 align="center">A Developer from Turkey interesed in AI/ML, Math and Game programming</h2>
-
+[![Wakatime](https://gh-md-stats.vercel.app/api/wakatime?username=night0721&border_radius=20px&bg_color=1e1e2e&text_color=cdd6f4&icon_color=cba6f7&title_color=89b4fa&border_color=cba6f7&show_icons=true&disable_animations=true&custom_title=Coding%20Stats&langs_count=50&layout=compact&hide=other,ini,git,git%20config,text,textmate,batch,mixin%20configuration,gitignore%20file,tsconfig,properties,d,image%20(png),inittab,desktop,sshdconfig,gdscript,gdscript3,mdx,image%20(jpeg),actionscript,ssh%20key,xml,conf,netrw,prolog,ezhil,toml,tsql,sh,gitignore,jsonc,zip,gitconfig,zsh,dosini,MiniScript,kitty,sshconfig,Ignore%20List,tmux,diff,modconf,fstab,Org,pdf,Bash,nginx%20configuration%20file,scdoc,vifm,tar,gpg,yaml,Slurm,BibTeX,gitrebase)]()
 
 **Contact:**
 Contact me through my email -> khiglix@gmail.com
