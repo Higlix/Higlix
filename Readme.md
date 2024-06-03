@@ -1,8 +1,14 @@
-<br>
-![200w](https://github.com/Higlix/Higlix/assets/109249128/5c0e3b31-e409-49ce-a7b3-f8e0ab79d85a)
-</br>
 
-<h2 align="left">A Developer from Turkey interesed in AI/ML, Math and Game programming</h2>
 
-**Contact:**
-khiglix@gmail.com
+<table>
+  <tr>
+    <td>
+      ![200w](https://github.com/Higlix/Higlix/assets/109249128/5c0e3b31-e409-49ce-a7b3-f8e0ab79d85a)
+    </td>
+    <td>
+        <h2 align="left">A Developer from Turkey interesed in AI/ML, Math and Game programming</h2>
+        **Contact:**
+        khiglix@gmail.com
+    </td>
+  </tr>
+</table>
