@@ -5,7 +5,7 @@
     </td>
     <td>
       <h2 align="left">A highly motivated software engineer with a degree from Ecole 42, experienced in developing robust
-software solutions and passionate about continuous learning and improvement. AI/ML, Math, and Game programming</h2>
+software solutions and passionate about continuous learning and improvement. AI/ML, Math, and Game programming ....</h2>
       <p><strong>Contact:</strong><br>
       khiglix@gmail.com</p>
     </td>
