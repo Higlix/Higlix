@@ -11,8 +11,7 @@
 <table>
   <tr>
     <td>
-      <h1 align="left">I like computers, they are fun.</h1>
-      <h3 align="left">Hi I am Sarp. I am Software engineer from Turkey.</h3> 
+      <h1 align="left">A computer enjoyer from Turkey</h1>
       <p><strong>Contact:</strong><br>
       khiglix@gmail.com</p>
     </td>
