@@ -10,14 +10,8 @@
 
 ###
 
-<br clear="both">
-
-<img align="left" height="455" src="https://github.com/Higlix/Higlix/assets/109249128/5c0e3b31-e409-49ce-a7b3-f8e0ab79d85a"  />
-
-###
-
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Higlix&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=10&theme=dark&hide_border=true&order=2" height="226" alt="languages graph" /> <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Higlix&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=10&theme=dark&hide_border=true&order=2" height="226" alt="languages graph"  />
   <img src="https://github-profile-trophy.vercel.app?username=Higlix&theme=darkhub&column=4&row=2&margin-w=6&margin-h=10&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
 </div>
 
