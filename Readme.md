@@ -2,7 +2,7 @@
 <div style="display:flex; gap:20px; width:100%; justify-content:space-between;">
   <!-- GIF -->
   <div style="flex:1; border:3px solid #000; border-radius:20px; padding:10px; text-align:center;">
-    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnJ4Y3dlajY5cjd5aXNteXphMjVzYWF5eGlwd3p2ZTlwZGl3bm9tNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wwg1suUiTbCY8H8vIA/giphy.gif" alt="GIF" style="width:100%; border-radius:15px;">
+    <img src="https://giphy.com/embed/wwg1suUiTbCY8H8vIA" alt="GIF" style="width:100%; border-radius:15px;">
   </div>
 
   <!-- Trophies -->
