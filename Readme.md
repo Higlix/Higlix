@@ -10,6 +10,8 @@
 
 ###
 
+<br clear="both">
+
 <img align="left" height="254" src="https://github.com/Higlix/Higlix/assets/109249128/5c0e3b31-e409-49ce-a7b3-f8e0ab79d85a"  />
 
 ###
@@ -20,6 +22,8 @@
 </div>
 
 ###
+
+<br clear="both">
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" height="66" alt="unity logo"  />
@@ -53,6 +57,8 @@
 
 ###
 
+<br clear="both">
+
 <div align="center">
   <a href="https://www.linkedin.com/in/sarp-erkiralp-200203233/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
@@ -71,8 +77,6 @@
 </div>
 
 ###
-
-
 
 <!-- <table>
   <tr>
