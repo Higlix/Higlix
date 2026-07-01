@@ -1,0 +1,24 @@
+add_newline = false
+
+format = "$username$directory$git_branch$character"
+
+[username]
+show_always = true
+style_user = "bold green"
+style_root = "bold red"
+format = "[$user]($style) "
+
+[directory]
+truncation_length = 0
+truncate_to_repo = false
+style = "bold blue"
+format = "[$path]($style) "
+
+[git_branch]
+symbol = ""
+style = "#8bd5ca"
+format = "[$branch]($style) "
+
+[character]
+success_symbol = '[\$](bold green)'
+error_symbol = '[\$](bold red)'

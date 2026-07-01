@@ -1,0 +1,164 @@
+{
+  // ── Your existing settings ──────────────────────────────────────────
+  "editor.minimap.enabled": false,
+  "claudeCode.preferredLocation": "panel",
+  "workbench.colorTheme": "Dark+",
+
+  // ── VSCodeVim core behavior ─────────────────────────────────────────
+  "vim.leader": "<space>", // Space as the leader key (most popular choice)
+  "vim.useSystemClipboard": true, // y/p use the OS clipboard
+  "vim.useCtrlKeys": true, // let Vim handle Ctrl-based combos
+  "vim.hlsearch": true, // highlight all search matches
+  "vim.incsearch": true, // jump to matches as you type the search
+  "vim.easymotion": true, // <leader><leader> motions to jump anywhere
+  "vim.smartcase": true, // case-insensitive search unless you type a capital
+  "vim.ignorecase": true,
+  "vim.surround": true, // cs"' , ds" , ysiw) etc.
+
+  // Don't let Vim swallow these — keep native VS Code shortcuts:
+  "vim.handleKeys": {
+    "<C-a>": false, // select all
+    "<C-f>": false, // find
+    "<C-c>": false, // copy (native)
+    "<C-v>": false, // paste (native) — overrides Vim visual-block
+    "<C-p>": false, // quick open (native) — overrides Vim prev/up
+  },
+
+  // ── Insert mode: jj / jk to escape (extremely common) ───────────────
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"],
+    },
+  ],
+
+  // ── Normal mode mappings ────────────────────────────────────────────
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // Clear search highlight
+    { "before": ["<leader>", "h"], "commands": [":nohl"] },
+
+    // Files / navigation
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.files.save"],
+    },
+    { "before": ["<leader>", "p"], "commands": ["workbench.action.quickOpen"] },
+    { "before": ["<leader>", "e"], "commands": ["workbench.view.explorer"] },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["editor.action.formatDocument"],
+    },
+
+    // Code intelligence
+    { "before": ["g", "r"], "commands": ["editor.action.goToReferences"] },
+    { "before": ["g", "i"], "commands": ["editor.action.goToImplementation"] },
+    { "before": ["<leader>", "r", "n"], "commands": ["editor.action.rename"] },
+    {
+      "before": ["<leader>", "c", "a"],
+      "commands": ["editor.action.quickFix"],
+    },
+
+    // Comment a line with <leader>/
+    { "before": ["<leader>", "/"], "commands": ["editor.action.commentLine"] },
+
+    // Move between editor splits with Ctrl+h/l
+    { "before": ["<C-h>"], "commands": ["workbench.action.navigateLeft"] },
+    { "before": ["<C-l>"], "commands": ["workbench.action.navigateRight"] },
+  ],
+
+  // ── Visual mode mappings ────────────────────────────────────────────
+  "vim.visualModeKeyBindings": [
+    // Toggle comment on the selection
+    { "before": ["<leader>", "/"], "commands": ["editor.action.commentLine"] },
+    // Keep selection after indenting (so you can repeat)
+    { "before": [">"], "commands": ["editor.action.indentLines"] },
+    { "before": ["<"], "commands": ["editor.action.outdentLines"] },
+  ],
+
+  // ── Editor settings that pair well with Vim ─────────────────────────
+  "editor.lineNumbers": "relative", // relative numbers make 5j / 12k natural
+  "editor.cursorSurroundingLines": 8, // keeps context visible (like scrolloff=8)
+  "editor.cursorBlinking": "solid",
+
+  // Performance: run the Vim extension on its own thread
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1,
+  },
+
+  // ── TypeScript / Expo / React Native dev ────────────────────────────
+  // Tab completion: Tab accepts the highlighted suggestion / expands snippets
+  "editor.tabCompletion": "on",
+  "editor.suggestSelection": "first",
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true, // suggest inside strings (className, import paths)
+  },
+
+  // Format on save with Prettier, auto-fix lint on save
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+  ],
+
+  // Per-language formatter (Prettier for the JS/TS/JSON family)
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+  // TypeScript ergonomics
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "typescript.tsserver.maxTsServerMemory": 4096,
+  "files.exclude": {
+    "**/.expo": true,
+    "**/node_modules": true,
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "'JetBrains Mono', monospace",
+
+  // ── Visual / readability improvements ───────────────────────────────
+  // Folder tree: bigger indents + always-visible guide lines so nesting
+  // is easy to follow in the Explorer.
+  "workbench.tree.indent": 20, // default is 8 — much clearer nesting
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.tree.enableStickyScroll": true, // keep parent folders pinned
+
+  // Fonts: 17px everywhere (editor + sidebar + terminal stay consistent).
+  "editor.fontSize": 15,
+  "window.zoomLevel": 0, // bump this (e.g. 0.5) to scale the whole UI
+  "terminal.integrated.fontSize": 17,
+  "debug.console.fontSize": 17,
+  "markdown.preview.fontSize": 17,
+
+  // Breathing room + nicer text rendering.
+  "editor.lineHeight": 1.6, // multiplier — more vertical space per line
+  "editor.fontLigatures": true, // JetBrains Mono supports ligatures
+  "editor.letterSpacing": 0.3,
+  "editor.padding.top": 12, // gap above the first line
+  "editor.padding.bottom": 12,
+
+  // Code structure aids.
+  "editor.stickyScroll.enabled": true, // pin enclosing scope at the top
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.renderLineHighlight": "all", // highlight the current line + gutter
+  "editor.renderWhitespace": "boundary",
+
+  // Smooth, less-jarring motion.
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+}
