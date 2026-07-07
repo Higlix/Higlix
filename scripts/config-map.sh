@@ -12,6 +12,7 @@ CONFIG_FILES=(
 # Paths relative to $HOME (both in $HOME and in the repo's home/).
 HOME_FILES=(
   ".tmux.conf"
+  ".zshrc"
 )
 
 # Resolve a CONFIG_FILES entry to its real path on this OS.
