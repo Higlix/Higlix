@@ -6,7 +6,7 @@ REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 source "$REPO_DIR/scripts/config-map.sh"
 
 for rel in "${CONFIG_FILES[@]}"; do
-  src="$HOME/.config/$rel"
+  src="$(config_dest "$rel")"
   dest="$REPO_DIR/.config/$rel"
 
   if [[ -f "$src" ]]; then

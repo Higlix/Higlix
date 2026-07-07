@@ -1,6 +1,7 @@
 # minimal + low-color
 theme = Vercel
 
+mouse-scroll-multiplier = 0.3 
 
 font-family = "JetBrains Mono"
 font-size = 14

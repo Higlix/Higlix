@@ -2,7 +2,8 @@
   // ── Your existing settings ──────────────────────────────────────────
   "editor.minimap.enabled": false,
   "claudeCode.preferredLocation": "panel",
-  "workbench.colorTheme": "Dark+",
+  // Requires the "Tokyo Night" theme extension: enkia.tokyo-night
+  "workbench.colorTheme": "Dark Modern",
 
   // ── VSCodeVim core behavior ─────────────────────────────────────────
   "vim.leader": "<space>", // Space as the leader key (most popular choice)
@@ -146,7 +147,7 @@
 
   // Breathing room + nicer text rendering.
   "editor.lineHeight": 1.6, // multiplier — more vertical space per line
-  "editor.fontLigatures": true, // JetBrains Mono supports ligatures
+  "editor.fontLigatures": false, // disabled — no more combined glyphs for != -> etc.
   "editor.letterSpacing": 0.3,
   "editor.padding.top": 12, // gap above the first line
   "editor.padding.bottom": 12,

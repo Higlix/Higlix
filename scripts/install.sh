@@ -8,7 +8,7 @@ source "$REPO_DIR/scripts/config-map.sh"
 
 for rel in "${CONFIG_FILES[@]}"; do
   src="$REPO_DIR/.config/$rel"
-  dest="$HOME/.config/$rel"
+  dest="$(config_dest "$rel")"
 
   if [[ -f "$src" ]]; then
     mkdir -p "$(dirname "$dest")"
